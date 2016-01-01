@@ -1,22 +1,21 @@
-.. eidprog documentation master file, created by
-   sphinx-quickstart on Fri Jan  1 13:37:47 2016.
+.. Einführung in das Programmieren für Physiker und Materialwissenschaftler documentation master file, created by
+   sphinx-quickstart on Thu Feb 18 09:36:22 2010.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to eidprog's documentation!
-===================================
-
-Contents:
+Vorlesungsmanuskript »Einführung in das Programmieren für Physiker und Materialwissenschaftler«
+===============================================================================================
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   einleitung
+   vorschau
+   datentypen
+   kontrollstrukturen
+   funktionen
+   sequenzen
+   einausgabe
+   scipy
+   objektorientiert
+   grafik
