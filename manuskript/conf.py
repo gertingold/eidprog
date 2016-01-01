@@ -207,9 +207,9 @@ latex_elements = {
             pdfsubject={Manuskript zur Vorlesung »%s«},
             pdfkeywords={Programmieren, Python, Vorlesungsmanuskript, PHM-0041, PHM-0042}}
 \DeclareUnicodeCharacter{2248}{\ensuremath{\approx}}
-''' % (latex_documents[0][2], latex_documents[0][2])
+''' % (latex_documents[0][2], latex_documents[0][2]),
 
-'printiindex': ''
+'printindex': ''
 }
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,7 +227,7 @@ latex_elements = {
 #latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
-latex_appendices = ['floats' 'unicode']
+latex_appendices = ['floats', 'unicode']
 
 # If false, no module index is generated.
 latex_domain_indices = False
