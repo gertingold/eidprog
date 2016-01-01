@@ -158,20 +158,7 @@ wobei ``matplotlib`` ähnliche Möglichkeiten bietet. Seit Version 0.13 läuft
 
 Mit ``PyX`` lassen sich nicht nur Graphen erstellen, sondern auch
 Schemazeichnungen erzeugen. So wurden die meisten Abbildungen in diesem
-Manuskript ebenso mit ``PyX`` erstellt wie die beiden folgenden Abbildungen
-einer Juliamenge und der schematischen Darstellung der Quantenteleportation
-[#101]_.
-
-.. image:: images/julia.pdf
-   :width: 9cm
-   :align: center
-
-.. image:: images/teleport.pdf
-   :width: 9cm
-   :align: center
-
-Gerade die letzte Abbildung mit dem gekrümmten Pfeil, der sich der Krümmung des Kreises
-anpasst, zeigt, wie sehr bei ``PyX`` auf Details geachtet wurde.
+Manuskript mit ``PyX`` erstellt.
 
 Sehen wir uns zunächst an, wie aus einem in einer Datei vorliegenden Datensatz
 eine graphische Darstellung erzeugt werden kann. Liegt eine Datei
@@ -324,7 +311,5 @@ Einen guten Überblick bieten die oben bereits erwähnten Beispielseiten.
    sehr mächtiges Textsatzsystem handelt, das im wissenschaftlichen Umfeld stark genutzt
    wird, lohnt sich eine Installation auch unabhängig von PyX. Für weitere Informationen siehe
    zum Beispiel http://www.tug.org/texlive/ oder auch http://www.dante.de/tex/tl-install-windows.html.
-.. [#101] Diese Abbildungen stammen aus Gert-Ludwig Ingold, Astrid Lambrecht,
-   *Die 101 wichtigsten Fragen – Moderne Physik* (Beck, 2008).
 .. [#rgb] RGB steht für »red«, »green« und »blue«, wobei hier die Stärke jeder Komponente
    durch eine Zahl zwischen Null und Eins angegeben wird.
