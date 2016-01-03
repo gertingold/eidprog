@@ -140,7 +140,7 @@ wie folgendes Beispiel zeigt:
 
 Wichtig ist, dass die Zuordnung durch die Position der jeweiligen Variablen erfolgt, nicht
 durch deren Namen. Es gibt allerdings auch die Möglichkeit einer namensbasierten Übergabe
-der Argumente, die wir im Abschnitt :ref:`keywords` kennenlernen werden.
+der Argumente, die wir im Abschnitt :ref:`funckeywords` kennenlernen werden.
 
 |weiterfuehrend| Eine Funktionsdefinition kommt nicht ohne einen Codeblock aus, der auf
 die mit ``def`` beginnende Deklarationszeile folgt. Gelegentlich möchte man beim Entwickeln
@@ -215,7 +215,7 @@ Argumente in der Funktionsdefinition und im Funktionsaufruf übereinstimmen
 müssen. Hier hilft es auch nicht, die gleichen Variablennamen zu verwenden, wie
 aus den folgenden Überlegungen deutlich wird. Will man die Argumente in einer
 willkürlichen Reihenfolge verwenden, so muss man Schlüsselworte verwenden, wie
-im Abschnitt :ref:`keywords` genauer erklärt wird.
+im Abschnitt :ref:`funckeywords` genauer erklärt wird.
 
 Wie verhält es sich nun mit Variablennamen, die sowohl in der Funktionsdefinition als auch 
 im Hauptprogramm vorkommen? Betrachten wir dazu ein Beispiel
@@ -448,7 +448,7 @@ Von Rundungsfehlern abgesehen liefert dies das korrekte Ergebnis ``3``. In
 diesem Fall musste man sich nicht einmal Gedanken darüber machen, wie man die
 Funktion benennen will.
 
-.. _keywords:
+.. _funckeywords:
 
 ===============================
 Schlüsselworte und Defaultwerte
