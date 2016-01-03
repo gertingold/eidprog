@@ -80,7 +80,7 @@ Angaben lassen sich in Python folgendermaßen verifizieren:
 >>> sys.float_info.max
 1.7976931348623157e+308
 >>> sys.float_info.epsilon
-2.2204460492503131e-16
+2.220446049250313e-16
 
 Mit ``sys.float_info.min`` erhält man nicht die kleinste überhaupt darstellbare Zahl,
 sondern die kleinste darstellbare normalisierte Zahl 2\ :sup:`-1022`\ .

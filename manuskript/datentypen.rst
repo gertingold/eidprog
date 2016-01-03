@@ -163,7 +163,7 @@ Operatoren       Beschreibung
 Wird ``**`` direkt von einem Plus oder Minus gefolgt, bindet letzteres stärker:
 
 >>> 2**-0.5
-0.70710678118654757
+0.7071067811865476
 
 Stehen Operatoren auf der gleichen Stufe, so wird der Ausdruck von links nach
 rechts ausgewertet. Gegebenenfalls müssen Klammern verwendet werden, um die
@@ -218,7 +218,7 @@ Null gesetzt.
 0.25
 >>> .25
 0.25
->>> .
+>>> . # doctest: +SKIP
     File "<stdin>", line 1
       .
       ^
@@ -256,10 +256,10 @@ Informationen über die Eigenschaften von Floats auf dem verwendeten System kann
 man folgendermaßen erhalten:
 
 >>> import sys
->>> sys.float_info
+>>> sys.float_info # doctest: +NORMALIZE_WHITESPACE
 sys.float_info(max=1.7976931348623157e+308, max_exp=1024, max_10_exp=308, 
 min=2.2250738585072014e-308, min_exp=-1021, min_10_exp=-307, dig=15, 
-mant_dig=53, epsilon=2.2204460492503131e-16, radix=2, rounds=1)
+mant_dig=53, epsilon=2.220446049250313e-16, radix=2, rounds=1)
 
 ``sys.float_info.max`` ist der maximale Wert, den ein Float darstellen kann,
 während ``sys.float_info.min`` die kleinste normalisierte Zahl größer als
@@ -320,7 +320,7 @@ Es muss vielmehr zunächst das Modul :mod:`math` geladen werden:
 
 >>> import math
 >>> math.exp(2)
-7.3890560989306504
+7.38905609893065
 
 Dieser Schritt ist auch in vielen anderen Sprachen erforderlich. Eine wichtige
 Ausnahme stellt die Programmiersprache Fortran dar, deren Name ursprünglich als

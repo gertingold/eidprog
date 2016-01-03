@@ -170,7 +170,7 @@ auf eine Eingabe und drückt direkt die Eingabetaste.
 Bei der Eingabe können verschiedene Dinge schieflaufen. Betrachten wir zwei Beispiele.
 
 >>> summe = 0
->>> for n in range(5)
+>>> for n in range(5) # doctest: +SKIP
       File "<stdin>", line 1
         for n in range(5)
                         ^
@@ -180,7 +180,7 @@ Der ``SyntaxError`` weist darauf hin, dass die Eingabe nicht die Form hat, die d
 Python-Interpreter erwartet. In diesem Fall fehlt der Doppelpunkt am Ende der Zeile
 – ein beliebter Fehler. Kein Problem, man nimmt einfach einen zweiten Anlauf.
 
->>> for n in range(5):
+>>> for n in range(5): # doctest: +SKIP
 ... print("Schleifendurchgang", n)
       File "<stdin>", line 2
         print("Schleifendurchgang", n)
