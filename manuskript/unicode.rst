@@ -68,7 +68,7 @@ Im Bereich ``0x0080`` bis ``0x07FF`` werden zwei Bytes zur Kodierung verwendet.
 Die elf relevanten Bytes werden dabei wie in folgendem Beispiel gezeigt auf die 
 zwei Bytes verteilt:
 
-.. image:: images/utf8/utf8_2.pdf
+.. image:: images/utf8/utf8_2.*
   :height: 2.5cm
   :align: center
 
@@ -87,7 +87,7 @@ Die in der vierten Codetabelle gezeigten mathematischen Symbole erfordern
 einen 3-Byte-Code, der sich wie im folgenden Beispiel für das Zeichen
 »∞« gezeigt aus dem Unicode Codepoint ergibt:
 
-.. image:: images/utf8/utf8_3.pdf
+.. image:: images/utf8/utf8_3.*
   :height: 2.5cm
   :align: center
 
@@ -95,19 +95,19 @@ Aus 4 Bytes bestehende Codes ergeben sich durch entsprechende Verallgemeinerung
 für Codepoints zwischen ``0x010000`` und ``0x10FFFF``, wobei der UTF-8-Code dann
 mit ``0xF`` beginnt. 
 
-.. image:: images/unicode/u0000.pdf
+.. image:: images/unicode/u0000.*
   :width: 14.5cm
   :align: center
 
-.. image:: images/unicode/u0080.pdf
+.. image:: images/unicode/u0080.*
   :width: 14.5cm
   :align: center
 
-.. image:: images/unicode/u0380.pdf
+.. image:: images/unicode/u0380.*
   :width: 14.5cm
   :align: center
 
-.. image:: images/unicode/u2200.pdf
+.. image:: images/unicode/u2200.*
   :width: 14.5cm
   :align: center
 
