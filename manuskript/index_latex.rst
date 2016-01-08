@@ -19,11 +19,3 @@ Vorlesungsmanuskript »Einführung in das Programmieren für Physiker und Materi
    scipy
    objektorientiert
    grafik
-
-Anhang
-
-.. toctree::
-   :maxdepth: 2
-
-   floats
-   unicode
