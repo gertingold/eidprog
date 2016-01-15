@@ -827,7 +827,7 @@ Diese Verwendung von Dictionaries führt einerseits zu einer impliziten Dokument
 des Codes und zum anderen zu einer größeren Stabilität des Codes bei Erweiterungen.
 
 Ähnlich kann man bei Funktionen vorgehen, um Argumente mit Hilfe von
-Schlüsselworten zu übergeben. In Abschnitt :ref:`keywords` hatten wir diese
+Schlüsselworten zu übergeben. In Abschnitt :ref:`funckeywords` hatten wir diese
 Möglichkeit für festgelegte Variablennamen kennengelernt. Im folgenden Beispiel
 wird gezeigt, wie man Objekte, die mit beliebigen Schlüsselworten übergeben
 werden, als Dictionary in der Funktion verfügbar macht.
