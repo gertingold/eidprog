@@ -170,7 +170,7 @@ wissenschaftlichen Datenverarbeitung ausgerichtet sind. Hier sind vor allem
 `Canopy <https://www.enthought.com/products/canopy/>`_ von Enthought und
 `Anaconda <https://store.continuum.io/cshop/anaconda/>`_ von Continuum
 Analytics zu nennen. Für die Installation von Python 3 ist gegenwärtig die
-Anaconda-Distribution zum empfehlen, die für die gängigen Betriebssysteme frei
+Anaconda-Distribution zu empfehlen, die für die gängigen Betriebssysteme frei
 verfügbar ist.  Unter Linux kann man auf die Installation einer speziellen
 Python-Distribution häufig verzichten, da sich die benötigte Software sehr
 einfach über die Paketverwaltung installieren lässt.
