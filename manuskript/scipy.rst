@@ -225,7 +225,7 @@ Als Anwendung von SciPy betrachten wir die numerische Auswertung des Integrals
 
 .. math:: 
 
-   J_0(1) = {1\over\pi}\int_0^\pi\cos(\cos(x))\mathrm{d}x.
+   J_0(1) = \frac{1}{\pi}\int_0^\pi\cos(\cos(x))\mathrm{d}x.
 
 Hierbei ist :math:`J_0(z)` die Besselfunktion erster Gattung und nullter
 Ordnung, deren Wert wir probehalber ebenfalls mit Hilfe von SciPy berechnen
@@ -284,7 +284,7 @@ zeigt, dass der Wert des Integrals
 
 .. math::
 
-   \int_{-\infty}^\infty{1\over x^2+1}\mathrm{d}x = \pi
+   \int_{-\infty}^\infty\frac{1}{x^2+1}\mathrm{d}x = \pi
 
 korrekt bestimmt wird. Man sollte sich von der Qualität dieses Ergebnisses jedoch nicht täuschen lassen.
 Nicht immer kann ein numerisches Resultat mit einer solchen Genauigkeit erhalten werden. Manchmal muss
