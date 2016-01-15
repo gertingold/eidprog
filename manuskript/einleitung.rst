@@ -275,7 +275,7 @@ anderem auf speziellere Aspekte der Programmiersprache Python beziehen.
 Literatur
 =========
 
-* `www.python.org <http://www.python.org>`_
+* `www.python.org <http://www.python.org/>`_
 
    Dies ist die offizielle Python-Webseite. Dort gibt es z.B. die Software zum Herunterladen, 
    eine umfangreiche Dokumentation der Programmiersprache sowie ihrer Standardbibliothek,

@@ -251,7 +251,7 @@ Programmbeispiel, dass man sich einiges an Tipparbeit durch geeignete
 ``import``-Anweisungen zu Beginn des Programms sparen könnte.
 
 Wir beenden dieses Kapitel mit einem Beispiel von der `PyX-Webseite
-<http://pyx.sf.net>`_, das die Mächtigkeit des Programmpakets bei
+<http://pyx.sourceforge.net/>`_, das die Mächtigkeit des Programmpakets bei
 Schemazeichnungen demonstriert.
 
 .. code-block:: python
