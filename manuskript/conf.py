@@ -43,7 +43,7 @@ source_suffix = '.rst'
 source_encoding = 'utf-8'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'index_latex'
 
 # General information about the project.
 project = u'Einführung in das Programmieren für Physiker und Materialwissenschaftler'
@@ -188,7 +188,7 @@ htmlhelp_basename = 'eidprogdoc'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'eidprog.tex',
+  ('index_latex', 'eidprog.tex',
    u'Einführung in das Programmieren für Physiker und Materialwissenschaftler',
    u'Gert-Ludwig Ingold', 'manual'),
 ]
