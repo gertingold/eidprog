@@ -516,8 +516,6 @@ beschrieben, wobei eine Unterteilung in Abschnitte möglich ist.
 
 .. rubric:: Footnotes
 .. [#foo] Zum Ursprung dieses Namens siehe `RFC 3092 <http://www.ietf.org/rfc/rfc3092.txt>`_.
-.. [#optparse] Dieses Modul ist unter dem Titel `optparse – Parser for command line options
-   <http://docs.python.org/library/optparse.html>`_ in der Python-Dokumentation beschrieben.
 .. [#argparse] Dieses Modul ist unter dem Titel `argparse – Parser for command-line options,
    arguments and sub-commands <http://docs.python.org/library/argparse.html>`_ in der 
    Python-Dokumentation beschrieben.
