@@ -366,10 +366,19 @@ nur ein kleiner Ausschnitt gezeigt:
    >>> import math
    >>> help(math)
 
-   Help on built-in module math:
+   Help on module math:
    
    NAME
        math
+   
+   MODULE REFERENCE
+       http://docs.python.org/3.5/library/math
+       
+       The following documentation is automatically generated from the Python
+       source files.  It may be incomplete, incorrect or include features that
+       are considered implementation detail and may vary between Python
+       implementations.  When in doubt, consult the module reference at the
+       location listed above.
    
    DESCRIPTION
        This module is always available.  It provides access to the
@@ -384,7 +393,8 @@ nur ein kleiner Ausschnitt gezeigt:
        acosh(...)
            acosh(x)
            
-           Return the hyperbolic arc cosine (measured in radians) of x.
+           Return the inverse hyperbolic cosine of x.
+    
 
 Häufig ist es zu umständlich, den Modulnamen beim Funktionsaufruf immer
 explizit anzugeben. Stattdessen kann man einzelne Funktionen des Moduls
@@ -418,6 +428,8 @@ Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 ``fmod(x, y)``       Modulofunktion für Gleitkommazahlen                                    
 ``frexp(x)``         ergibt Mantisse ``m`` und Exponent ``e`` für Basis 2                         
 ``fsum(z)``          Summe über ``z``, ``z`` ist iterierbarer Datentyp             
+``gcd(a, b)``        größter gemeinsamer Teiler der ganzen Zahlen ``a`` und ``b`` (ab Python 3.5)
+``isclose(a, b)``    überprüft ob ``a`` und ``b`` nahezu gleich sind (ab Python 3.5) [#isclosedoc]_
 ``isfinite(x)``      überprüft ob ``x`` weder unendlich noch ``nan`` (not a number) ist (ab Python 3.2)
 ``isinf(x)``         überprüft ob ``x`` unendlich ist                              
 ``isnan(x)``         überprüft ob ``x`` ``nan`` (not a number) ist                 
@@ -471,6 +483,9 @@ anderen Namen vergeben:
 >>> from math import e as euler_zahl
 >>> euler_zahl
 2.718281828459045
+
+Ab Python 3 sind schließlich noch ``math.inf`` für positiv Unendlich und
+``math.nan`` für »not a number« definiert.
 
 ===============
 Komplexe Zahlen
@@ -1113,6 +1128,9 @@ erzeugen die Ausgabe ``x..xx`` sowie einen anschließenden Zeilenumbruch.
    das eine Rechnung mit einer vorgebbaren, im Prinzip beliebig hohen Genauigkeit ermöglicht.
 .. [#ieee754] Detailliertere Informationen zu diesem Standard sind im Anhang
    :ref:`appendixfloats` zu finden.
+.. [#isclosedoc] Standardmäßig wird ein relativer Fehler von :math:`10^{-9}` zugelassen. Die
+   `Dokumentation von isclose <https://docs.python.org/3/library/math.html#math.isclose>`_
+   beschreibt, wie man den relativen und absoluten Fehler selbst setzen kann.
 .. [#fehlerfunktion] Die Fehlerfunktion ist das normierte Integral über die Gaußfunktion
            von Null bis zu dem durch das Argument gegebenen Wert. Das Komplement der Fehlerfunktion
            ist die Differenz zwischen 1 und dem Wert der Fehlerfunktion.

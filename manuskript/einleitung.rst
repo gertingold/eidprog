@@ -151,7 +151,7 @@ offiziellen Python-Webseite `www.python.org <http://www.python.org/>`_
 herunterladen. Dabei ist zu beachten, dass gegenwärtig zwei Versionen von
 Python im Gebrauch sind, die sich in einigen Aspekten voneinander
 unterscheiden: Python 2 und Python 3. Beim Schreiben dieses Manuskripts waren
-die Versionen 2.7.9 und 3.4.3 aktuell. Im Rahmen der Vorlesung wird Python 3
+die Versionen 2.7.11 und 3.5.1 aktuell. Im Rahmen der Vorlesung wird Python 3
 besprochen, so dass auf die Installation von Python 2.7 verzichtet werden kann.
 Es stellt jedoch kein Problem dar, wenn Python 2 ebenfalls installiert ist, wie
 dies zum Beispiel bei gängigen Linuxsystemen der Fall sein wird. Für den

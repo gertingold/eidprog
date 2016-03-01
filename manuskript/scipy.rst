@@ -31,10 +31,10 @@ leicht mit Hilfe eines ``import``-Versuchs feststellen:
 
    >>> import numpy
    >>> numpy.__version__
-   '1.9.2'
+   '1.10.4'
    >>> import scipy
    >>> scipy.__version__
-   '0.15.1'
+   '0.17.0'
 
 Sind die Bibliotheken nicht vorhanden, so würde eine ``ImportError``-Ausnahme
 geworfen. Dann muss SciPy, das wiederum von NumPy abhängt, zunächst installiert
