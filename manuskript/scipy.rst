@@ -36,22 +36,13 @@ leicht mit Hilfe eines ``import``-Versuchs feststellen:
    >>> scipy.__version__
    '0.17.0'
 
-Sind die Bibliotheken nicht vorhanden, so würde eine ``ImportError``-Ausnahme
-geworfen. Dann muss SciPy, das wiederum von NumPy abhängt, zunächst installiert
-werden. Die Software lässt sich von
-http://sourceforge.net/projects/numpy/files/ (NumPy) und
-http://sourceforge.net/projects/scipy/files/ (SciPy) herunterladen. Eine
-vollständige Übersicht über die zur Verfügung stehenden Varianten findet man
-auf den `SciPy-Seiten <http://www.scipy.org>`_ unter
-http://www.scipy.org/Download. Bei der Installation unter
-Windows-Betriebssystemen ist zu beachten, dass die Datei für die verwendete
-Python-Version heruntergeladen wird. Unter Linux-Betriebssystemen stellt das
-Paketverwaltungssystem der jeweiligen Distribution normalerweise einen bequemen
-Weg zur Installation von NumPy/SciPy zur Verfügung. [#scipydeb]_ Alternativ ist
-eine Installation der Quellen mit Hilfe des Python-Interpreters möglich, wobei
-die Module im Verzeichnis der entsprechenden Python-Version abgelegt werden.
-Nach der Installation sollte der Import funktionieren und die Versionsnummer
-wie oben angegeben abrufbar sein [#version]_.
+Haben Sie beispielsweise die Anaconda-Distribution installiert, so
+sollte das Importieren problemlos gehen, auch wenn vielleicht eine
+andere Versionsnummer angezeigt wird [#version]_. Sind die Bibliotheken nicht vorhanden,
+so würde eine ``ImportError``-Ausnahme geworfen. Dann müssen NumPy und
+SciPy installiert werden. Informationen hierzu finden Sie für
+verschiedene Betriebssysteme unter `www.scipy.org/install.html
+<http://www.scipy.org/install.html>`_.
 
 .. _numpy:
 
@@ -500,6 +491,4 @@ Sie die berechneten Trajektorien leicht vergleichen.
 .. |frage| image:: images/symbols/question.*
            :height: 1em
 .. rubric:: Footnotes
-.. [#scipydeb] Unter Debian und Ubuntu heißen die zu installierenden Pakete ``python3-numpy`` und
-           ``python3-scipy``.
 .. [#version] Man beachte, dass vor und nach ``version`` jeweils *zwei* Unterstriche einzugeben sind.
