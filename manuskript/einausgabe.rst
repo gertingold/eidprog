@@ -143,7 +143,7 @@ vorliegt, auf deren Inhalt wir in einem Programm zugreifen wollen. Für die
 folgenden Beispiele nehmen wir an, dass eine Datei namens ``foo_utf8.dat`` mit
 dem Inhalt
 
-.. code-block:: python
+.. code-block:: none
 
    Einführung in das
    Programmieren für
