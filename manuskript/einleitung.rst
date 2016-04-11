@@ -275,16 +275,21 @@ anderem auf speziellere Aspekte der Programmiersprache Python beziehen.
 Literatur
 =========
 
+* Gert-Ludwig Ingold, Vorlesungsmanuskript »Einführung in das Programmieren für Physiker
+  und Materialwissenschaftler«
+
+   Das Vorlesungsmanuskript, das Sie gerade lesen, ist online unter
+   `gertingold.github.io/eidprog <http://gertingold.github.io/eidprog/>`_ verfügbar.
 * `www.python.org <http://www.python.org/>`_
 
    Dies ist die offizielle Python-Webseite. Dort gibt es z.B. die Software zum Herunterladen, 
    eine umfangreiche Dokumentation der Programmiersprache sowie ihrer Standardbibliothek,
    Verweise auf einführende Literatur und einiges mehr.
 * Hans Petter Langtangen, *A Primer on Scientific Programming with Python* (Springer, 2012)
-* Michael Weigend, *Python GE-PACKT* (MITP-Verlag, 2012) 
+* Michael Weigend, *Python GE-PACKT* (MITP-Verlag, 2015) 
 
-   Dieses Buch eignet sich als kompaktes Nachschlagewerk. Die 5. Auflage berücksichtigt bereits
-   die Python-Version 3.3.
+   Dieses Buch eignet sich als kompaktes Nachschlagewerk. Die 6. Auflage berücksichtigt
+   die Python-Version 3.4.
 
 ==============
 Python-Version
@@ -331,9 +336,7 @@ Danke an …
    Version 4 des Notebookformats aktuell. Falls Sie eine Fehlermeldung bekommen, die
    darauf hinweist, dass das Notebookformat nicht lesbar ist, liegt dies vermutlich
    an einer veralteten IPython-Version. Es ist dann sinnvoll, auf eine neuere
-   Version umzusteigen. Beim Schreiben dieses Manuskripts war die IPython-Version
-   3.1 aktuell. Alternativ  können Sie um IPython-Notebooks in einem älteren
-   Format bitten.
+   Version umzusteigen.
 .. [#emacs] `www.gnu.org/software/emacs <http://www.gnu.org/software/emacs/>`_
 .. [#vim] `www.vim.org <http://www.vim.org/>`_
 .. [#spyder] Spyder steht für «Scientific PYthon Development EnviRonment»
