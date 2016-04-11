@@ -63,7 +63,7 @@ speichern die folgenden Anweisungen in einer Datei namens ``foo.py`` ab [#foo]_:
 
 Führen wir diese Datei im Python-Interpreter aus, so erhalten wir keine Ausgabe::
 
-  $ python3 foo.py
+  $ python foo.py
   $
 
 In den meisten Fällen möchte man jedoch das Ergebnis eines Programms wissen. Dazu
@@ -79,7 +79,7 @@ aussehen:
 Speichern wir diese Anweisungen wiederum in der Datei ``foo.py`` ab und führen sie
 im Python-Interpreter aus, so erhalten wir eine Ausgabe::
 
-  $ python3 foo.py
+  $ python foo.py
   42
   $
 
@@ -94,7 +94,7 @@ Eine etwas informativere Ausgabe kann man folgendermaßen erhalten. Das Programm
 
 führt zu folgender Ausgabe::
 
-  $ python3 foo.py
+  $ python foo.py
   Das Ergebnis lautet: 42
   $
 
@@ -120,7 +120,7 @@ Schleifen verwenden. Betrachten wir ein einfaches Beispiel, das wir in einer Dat
 Bevor wir dieses Skript genauer ansehen, wollen wir uns davon überzeugen, dass es
 vernünftig funktioniert::
 
-  $ python3 summe.py
+  $ python summe.py
   Schleifendurchgang 0
   Schleifendurchgang 1
   Schleifendurchgang 2

@@ -315,8 +315,6 @@ Danke an …
            :height: 1em
 .. |achtung| image:: images/symbols/attention.*
            :height: 1em
-.. |python3| image:: images/symbols/python3.*
-           :height: 1em
 .. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
            :height: 1em
 

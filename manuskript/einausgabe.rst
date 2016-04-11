@@ -23,13 +23,13 @@ Eingabe über die Kommandozeile und die Tastatur
 Ein Python-Programm, nennen wir es ``foo.py`` [#foo]_, lässt sich von der Kommandozeile
 mit Hilfe des Aufrufs 
 
-   ``python3 foo.py`` 
+   ``python foo.py`` 
    
 starten. An diesen Aufruf kann man jedoch auch weitere Argumente anhängen, die
 innerhalb des Programms verfügbar sind.  Ein solcher Aufruf könnte
 beispielsweise lauten
 
-   ``python3 foo.py Hallo 3``
+   ``python foo.py Hallo 3``
 
 Es könnte sich dabei um den Aufruf eines Programms handeln, das den angegebenen
 String so oft ausgibt wie es durch das letzte Argument des Aufrufs vorgegeben
@@ -212,7 +212,7 @@ UTF-8-Kodierung interpretiert werden können.
    >>> datei.read()
    Traceback (most recent call last):
      File "<stdin>", line 1, in <module>
-     File "/usr/lib/python3.1/codecs.py", line 300, in decode
+     File "/usr/lib/python3.5/codecs.py", line 321, in decode
        (result, consumed) = self._buffer_decode(data, self.errors, final)
    UnicodeDecodeError: 'utf8' codec can't decode byte 0xfc in position 4: invalid start byte
 

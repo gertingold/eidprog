@@ -542,8 +542,6 @@ beider Klassen verwendet werden.
 
 .. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
            :height: 1em
-.. |python3| image:: images/symbols/python3.*
-           :height: 1em
 .. [#fractions] Python stellt Brüche über das Modul ``fractions`` zur Verfügung. Weitere
     Informationen sind in der Python-Dokumentation unter
     `https://docs.python.org/3/library/fractions.html <https://docs.python.org/3/library/fractions.html>`_
