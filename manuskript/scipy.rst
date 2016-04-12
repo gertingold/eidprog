@@ -37,7 +37,7 @@ leicht mit Hilfe eines ``import``-Versuchs feststellen:
    '0.17.0'
 
 Haben Sie beispielsweise die Anaconda-Distribution installiert, so
-sollte das Importieren problemlos gehen, auch wenn vielleicht eine
+sollte das Importieren problemlos funktionieren, auch wenn vielleicht eine
 andere Versionsnummer angezeigt wird [#version]_. Sind die Bibliotheken nicht vorhanden,
 so würde eine ``ImportError``-Ausnahme geworfen. Dann müssen NumPy und
 SciPy installiert werden. Informationen hierzu finden Sie für
