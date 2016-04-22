@@ -501,6 +501,33 @@ Alternativ kann man die Funktion :func:`complex` verwenden:
 >>> complex(1, 0.5)
 (1+0.5j)
 
+Möchte man aus den Werten zweier Variablen eine komplexe Zahl
+konstruieren, geht dies mit der zweiten der gerade genannten Methoden
+sehr einfach
+
+>>> x = 1
+>>> y = 2
+>>> z = complex(x, y)
+>>> z
+(1+2j)
+
+Falls man die Funktion ``complex()`` nicht verwenden möchte, muss man
+beachten, dass folgender Weg nicht zum Ziel führt:
+
+>>> z = x+yj
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'yj' is not defined
+
+In diesem Fall geht Python davon aus, dass es sich bei ``yj`` um eine
+Variable handelt, die jedoch bis jetzt noch nicht defniert wurde. In
+diesem Fall muss die imaginäre Einheit explizit als ``1j`` geschrieben
+werden:
+
+>>> z = x+y*1j
+>>> z
+(1+2j)
+
 |frage| Zeigen Sie, dass das Ergebnis einer Rechnung, die komplexe Zahlen
 enthält, selbst dann als komplexe Zahl dargestellt wird, wenn das Ergebnis
 reell ist.
