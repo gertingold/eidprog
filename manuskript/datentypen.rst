@@ -512,16 +512,20 @@ sehr einfach
 (1+2j)
 
 Falls man die Funktion ``complex()`` nicht verwenden möchte, muss man
-beachten, dass folgender Weg nicht zum Ziel führt:
+beachten, dass die folgenden beiden Wege nicht zum Ziel führen:
 
 >>> z = x+yj
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'yj' is not defined
+>>> z = x+y*j
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'j' is not defined
 
-In diesem Fall geht Python davon aus, dass es sich bei ``yj`` um eine
-Variable handelt, die jedoch bis jetzt noch nicht defniert wurde. In
-diesem Fall muss die imaginäre Einheit explizit als ``1j`` geschrieben
+In diesem Fall geht Python davon aus, dass es sich bei ``yj`` bzw. ``j``
+um eine Variable handelt, die jedoch bis jetzt noch nicht defniert wurde.
+Vielmehr muss die imaginäre Einheit explizit als ``1j`` geschrieben
 werden:
 
 >>> z = x+y*1j
