@@ -524,7 +524,7 @@ Traceback (most recent call last):
 NameError: name 'j' is not defined
 
 In diesem Fall geht Python davon aus, dass es sich bei ``yj`` bzw. ``j``
-um eine Variable handelt, die jedoch bis jetzt noch nicht defniert wurde.
+um eine Variable handelt, die jedoch bis jetzt noch nicht definiert wurde.
 Vielmehr muss die imaginäre Einheit explizit als ``1j`` geschrieben
 werden:
 
