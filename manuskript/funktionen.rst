@@ -150,6 +150,20 @@ korrektes Programm zu haben, kann man den Befehl ``pass`` verwenden, der ledigli
 dient, den benötigten Codeblock bereitzustellen. ``pass`` hat ansonsten keinerlei Auswirkungen
 auf den Programmablauf.
 
+|weiterfuehrend| Auch wenn eine Funktion keine ``return``-Anweisung
+enthält, wird ein Wert zurückgegeben, nämlich ``None`` wie folgendes
+einfache Beispiel zeigt.
+
+>>> def f():
+...     pass
+...
+>>> print(f())
+None
+
+Gelegentlich kann es vorkommen, dass man sich über diese unerwartete
+Rückgabe wundert. Grund hierfür ist dann häufig eine vergessene 
+``return``-Anweisung.
+
 .. _funcdoc:
 
 ============================
