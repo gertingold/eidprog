@@ -123,6 +123,25 @@ Variable, sondern einen ganzen Ausdruck enthalten kann:
    def f(k):
        return k**2
 
+Bei Bedarf kann eine Funktion auch mehrere ``return``-Anweisungen enthalten, wie in
+dem folgenden Beispiel. Die Funktion :func:`is_prime` soll feststellen, ob es sich
+bei der Integer-Variable ``n`` um eine Primzahl handelt.
+
+.. code-block:: python
+
+   def is_prime(n):
+       for divisor in range(2, n):
+           if n % divisor == 0:
+               return False
+       return True
+
+   for n in range(2, 20):
+       if is_prime(n):
+           print(n)
+
+|frage| Der hier vorgestellte Primzahltest ist nicht sonderlich effizient. Wie könnte
+man ihn verbessern?
+
 Funktionen können auch mehr als ein Argument besitzen und mehr als einen Wert zurückgeben
 wie folgendes Beispiel zeigt:
 
@@ -593,6 +612,8 @@ zurückkommen, da wir erst dort den hierzu benötigten Datentyp kennenlernen wer
 
 .. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
    :height: 1em
+.. |frage| image:: images/symbols/question.*
+           :height: 1em
 
 .. [#oaoo] Dies ist das `OAOO-Prinzip <http://c2.com/cgi/wiki?OnceAndOnlyOnce>`_: 
    once and only once.
