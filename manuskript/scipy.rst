@@ -107,7 +107,7 @@ den jeweils gleichen Positionen der beiden Matrizen miteinander multipliziert.
    array([[  2.73 -11.25],
           [ -1.53  -8.19]])
 
-|weiterfuehrend| Ab Python 3.4 und NumPy 1.10 kann die Matrixmultiplikation von
+|weiterfuehrend| Ab Python 3.5 und NumPy 1.10 kann die Matrixmultiplikation von
 Arrays mit Hilfe des Operators ``@`` ausgeführt werden:
 
 .. code-block:: python
