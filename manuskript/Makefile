@@ -19,6 +19,9 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
+# gli
+GITHASH = $(shell git rev-parse --short --verify master)
+
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
 
 help:
@@ -103,14 +106,14 @@ epub:
 	@echo
 	@echo "Build finished. The epub file is in $(BUILDDIR)/epub."
 
-latex:
+latex: cleandoctrees
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo
 	@echo "Build finished; the LaTeX files are in $(BUILDDIR)/latex."
 	@echo "Run \`make' in that directory to run these through (pdf)latex" \
 	      "(use \`make latexpdf' here to do that automatically)."
 
-latexpdf:
+latexpdf: cleandoctrees
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
@@ -175,3 +178,17 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+cleandoctrees:
+	rm -rf $(BUILDDIR)/doctrees
+
+install: cleandoctrees html latexpdf
+	rm -rf $(BUILDDIR)/gertingold.github.io
+	cd $(BUILDDIR)/ && \
+	git clone git@github.com:gertingold/gertingold.github.io.git && \
+	cp -r html/* gertingold.github.io/eidprog && \
+	cp latex/eidprog.pdf gertingold.github.io/eidprog/_downloads
+	cd $(BUILDDIR)/gertingold.github.io && \
+	git add * && \
+	git commit -a -m$(GITHASH)' from eidprog' && \
+	git push
