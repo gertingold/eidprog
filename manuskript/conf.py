@@ -47,7 +47,7 @@ master_doc = 'index_latex'
 
 # General information about the project.
 project = u'Einführung in das Programmieren für Physiker und Materialwissenschaftler'
-copyright = u'2010-2016, Gert-Ludwig Ingold'
+copyright = u'2010-2017, Gert-Ludwig Ingold, Lizenz: CC BY 4.0 International'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
