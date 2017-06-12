@@ -619,8 +619,7 @@ zurückkommen, da wir erst dort den hierzu benötigten Datentyp kennenlernen wer
    once and only once.
 
 .. [#returnnone] Genau genommen hat auch eine solche Funktion einen
-   Rückgabewert, nämlich ``None``. Dies lässt sich überprüfen, indem man den
-   Rückgabewert mit ``x = f()`` einer Variablen zuweist und diese anschließend
-   ausdrucken lässt.
+   Rückgabewert, nämlich ``None``, siehe den weiterführenden Punkt am Ende dieses
+   Unterkapitels.
 
 .. [#keywordverweis] Siehe hierzu Abschnitt :ref:`variablen`.
