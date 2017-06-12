@@ -37,7 +37,7 @@ Funktionsdefinitionen
 =====================
 
 Betrachten wir zunächst eine Funktion, die weder ein Argument besitzt noch
-Daten zurückgibt.
+Daten zurückgibt. [#returnnone]_
 
 .. code-block:: python
    :linenos:
@@ -617,5 +617,10 @@ zurückkommen, da wir erst dort den hierzu benötigten Datentyp kennenlernen wer
 
 .. [#oaoo] Dies ist das `OAOO-Prinzip <http://c2.com/cgi/wiki?OnceAndOnlyOnce>`_: 
    once and only once.
+
+.. [#returnnone] Genau genommen hat auch eine solche Funktion einen
+   Rückgabewert, nämlich ``None``. Dies lässt sich überprüfen, indem man den
+   Rückgabewert mit ``x = f()`` einer Variablen zuweist und diese anschließend
+   ausdrucken lässt.
 
 .. [#keywordverweis] Siehe hierzu Abschnitt :ref:`variablen`.
