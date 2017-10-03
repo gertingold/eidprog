@@ -295,7 +295,7 @@ zu einem Fehler:
   >>> 1.5/0
   Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
-  ZeroDivisionError: float division
+  ZeroDivisionError: float division by zero
 
 Hierbei wird eine Ausnahme (Exception) ausgelöst, die man geeignet behandeln kann, wie
 wir im Abschnitt :ref:`tryexcept` noch sehen werden.
