@@ -370,6 +370,14 @@ nur ein kleiner Ausschnitt gezeigt:
    NAME
        math
    <BLANKLINE>
+   MODULE REFERENCE
+       https://docs.python.org/3.6/library/math
+   <BLANKLINE>
+       The following documentation is automatically generated from the Python
+       source files.  It may be incomplete, incorrect or include features that
+       are considered implementation detail and may vary between Python
+       implementations.  When in doubt, consult the module reference at the
+       location listed above.
    DESCRIPTION
        This module is always available.  It provides access to the
        mathematical functions defined by the C standard.
