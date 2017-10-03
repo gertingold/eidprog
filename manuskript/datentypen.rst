@@ -365,7 +365,7 @@ nur ein kleiner Ausschnitt gezeigt:
 
    >>> import math
    >>> help(math) # doctest: +ELLIPSIS
-   Help on built-in module math:
+   Help on module math:
    <BLANKLINE>
    NAME
        math
