@@ -1,11 +1,11 @@
 .. image:: https://circleci.com/gh/gertingold/eidprog.svg?style=shield&circle-token=:circle-token
+   :target: https://circleci.com/gh/gertingold/eidprog
 
-=======
 eidprog
-=======
+-------
 
 Materialien zur Vorlesung „Einführung in das Programmieren für Physiker und Materialwissenschaftler“
-----------------------------------------------------------------------------------------------------
+====================================================================================================
 
 Die Vorlesung „Einführung in das Programmieren für Physiker und
 Materialwissenschaftler“ gibt eine Einführung in wesentliche
