@@ -1,3 +1,7 @@
 machine:
   python:
     version: 3.6.2
+
+test:
+  override:
+    - python -m doctest manuskript/datentypen.rst
