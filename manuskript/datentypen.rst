@@ -378,6 +378,7 @@ nur ein kleiner Ausschnitt gezeigt:
        are considered implementation detail and may vary between Python
        implementations.  When in doubt, consult the module reference at the
        location listed above.
+   <BLANKLINE>
    DESCRIPTION
        This module is always available.  It provides access to the
        mathematical functions defined by the C standard.
