@@ -295,7 +295,7 @@ zu einem Fehler:
   >>> 1.5/0
   Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
-  ZeroDivisionError: float division
+  ZeroDivisionError: float division by zero
 
 Hierbei wird eine Ausnahme (Exception) ausgelöst, die man geeignet behandeln kann, wie
 wir im Abschnitt :ref:`tryexcept` noch sehen werden.
@@ -364,36 +364,37 @@ nur ein kleiner Ausschnitt gezeigt:
 .. code-block:: python
 
    >>> import math
-   >>> help(math)
-
+   >>> help(math) # doctest: +ELLIPSIS
    Help on module math:
-   
+   <BLANKLINE>
    NAME
        math
-   
+   <BLANKLINE>
    MODULE REFERENCE
-       http://docs.python.org/3.5/library/math
-       
+       https://docs.python.org/3.6/library/math
+   <BLANKLINE>
        The following documentation is automatically generated from the Python
        source files.  It may be incomplete, incorrect or include features that
        are considered implementation detail and may vary between Python
        implementations.  When in doubt, consult the module reference at the
        location listed above.
-   
+   <BLANKLINE>
    DESCRIPTION
        This module is always available.  It provides access to the
        mathematical functions defined by the C standard.
-   
+   <BLANKLINE>
    FUNCTIONS
        acos(...)
            acos(x)
-           
+   <BLANKLINE>
            Return the arc cosine (measured in radians) of x.
-       
+   <BLANKLINE>
        acosh(...)
            acosh(x)
-           
+   <BLANKLINE>
            Return the inverse hyperbolic cosine of x.
+   <BLANKLINE>
+   ...
     
 
 Häufig ist es zu umständlich, den Modulnamen beim Funktionsaufruf immer
@@ -561,7 +562,7 @@ auswerten. Das Modul :mod:`math` hilft hier aber nicht weiter:
   >>> exp(0.25j*pi)
   Traceback (most recent call last):
     File "<stdin>", line 1, in <module>
-  TypeError: can't convert complex to float; use abs(z)
+  TypeError: can't convert complex to float
 
 Als Argument wird hier nur eine reelle Zahl akzeptiert. Stattdessen muss man
 das Modul :mod:`cmath` laden:
@@ -646,7 +647,7 @@ Problem:
    >>> Radius = 2
    >>> Fläche = π*Radius**2
    >>> print(Fläche)
-   12.5663706144
+   12.566370614359172
 
 Es ist nicht selbstverständlich, dass solche Variablennamen in anderen
 Programmiersprachen ebenfalls zugelassen sind.
@@ -758,7 +759,7 @@ Zeilen verteilen wird:
 
 .. code-block:: python
 
-   >>> 4+
+   >>> 4+ # doctest: +SKIP
      File "<stdin>", line 1
        4+
         ^
@@ -949,8 +950,8 @@ einfache Weise ändern möchte kann man auch Namen vergeben.
 .. code-block:: python
 
    >>> print("{basis}**{exponent} = {ergebnis}".format(basis=x,
-                                                       exponent=power,
-                                                       ergebnis=x**power))
+   ...                                                 exponent=power,
+   ...                                                 ergebnis=x**power))
    2**3 = 8
 
 Die drei Argumente stehen hier nur in eigenen Zeilen um den langen Ausdruck
@@ -963,7 +964,7 @@ wie im folgenden Beispiel gezeigt verdoppeln.
 .. code-block:: python
 
    >>> print("{}**{} = {}. Und das ist eine geschweifte Klammer: {{".format(
-                                                            x, power, x**power))
+   ...                                                      x, power, x**power))
    2**3 = 8. Und das ist eine geschweifte Klammer: {
 
 Bis jetzt haben wir nur die Ausgabe von Variablen in einen Text eingebettet,
@@ -974,7 +975,7 @@ beispielsweise bei Gleitkommazahlen wichtig.
 
    >>> from math import sqrt
    >>> print(sqrt(2))
-   1.41421356237
+   1.4142135623730951
 
 Vielleicht wollen wir jedoch gar nicht so viele Nachkommastellen ausgeben. Dies können
 wir mit Hilfe einer Formatspezifikation festlegen.
