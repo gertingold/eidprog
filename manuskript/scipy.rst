@@ -31,10 +31,10 @@ leicht mit Hilfe eines ``import``-Versuchs feststellen:
 
    >>> import numpy
    >>> numpy.__version__
-   '1.11.0'
+   '1.14.0'
    >>> import scipy
    >>> scipy.__version__
-   '0.17.1'
+   '1.0.0'
 
 Haben Sie beispielsweise die Anaconda-Distribution installiert, so
 sollte das Importieren problemlos funktionieren, auch wenn vielleicht eine
