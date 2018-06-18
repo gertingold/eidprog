@@ -121,7 +121,7 @@ eingegeben, die in einer Schleife abgearbeitet wird.
 
    zahlen = eval(input("Geben Sie eine Liste ein: "))
    for n in zahlen:
-           print("{:6}\t{:10}".format(n, n**2))
+       print("{:6}\t{:10}".format(n, n**2))
 
 Die Eingabe einer Liste gibt die Listenelemente und die zugehörigen Quadrate aus:
 
