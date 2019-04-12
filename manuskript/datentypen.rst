@@ -621,7 +621,7 @@ Mangel behebt, aber dennoch im Umfang sehr beschränkt ist, bis hin zum
 Unicode-Standard, der mehr als hunderttausend Zeichen umfasst. Für den
 Unicode-Standard gibt es wiederum verschiedene Codierungen, inbesondere die in
 der westlichen Welt sinnvolle UTF-8-Kodierung. Etwas mehr Details zu diesem
-Thema sind im Anhang :ref:`appendixunicode` zu finden. 
+Thema sind im Anhang :numref:`appendixunicode` zu finden. 
 
 Aus dem vorigen Abschnitt ergibt sich vielleicht der Eindruck, dass die Kodierung
 von Zeichen ein komplexeres Thema ist, und dieser Eindruck trügt nicht. Die gute
