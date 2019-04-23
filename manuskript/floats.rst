@@ -54,7 +54,7 @@ gleich Null, so liegt je nach Wert des Vorzeichenbits die Zahl 0 oder -0 vor.
 Ist dagegen die Mantisse T von Null verschieden, so hat man es mit einer so
 genannten denormalisierten Zahl zu tun. Denormalisierte Zahlen wurden
 eingeführt, weil der Minimalwert einer normalisierten 64-Bit-Gleitkommazahl
-betragsmäßig gleich 2\ :sup:`-1022` ≈ 2,225·10\ :sup:`-308` ist. Zwischen
+betragsmäßig gleich :math:`2^{-1022}\approx 2,225\cdot 10^{-308}` ist. Zwischen
 dieser Zahl und Null existiert somit eine Lücke, die man im Rahmen der
 Möglichkeiten einer 64-Bit-Gleitkommazahl zu füllen versucht. Im Gegensatz zu
 normalisierten Zahlen, bei denen eine implizite Eins vor den Nachkommaanteil zu
@@ -70,10 +70,10 @@ Zahlen, also 2\ :sup:`1-1023` = 2\ :sup:`-1022`\ .
 
 Wir charakterisieren abschließend die 64-Bit-Gleitkommazahlen durch einige ihrer
 Eigenschaften. Die kleinste darstellbare Zahl größer als Null ist 
-2\ :sup:`-1022`\ ×2\ :sup:`-52` = 2\ :sup:`-1074` ≈ 4,941·10\ :sup:`-324`\ .
-Die größte darstellbare endliche Zahl ist 2\ :sup:`1023` ×(1+1-2\ :sup:`-52`\ )
-≈ 1,798·10\ :sup:`308`\ . Der Abstand zwischen der Zahl Eins und der nächst größeren
-darstellbaren Zahl beträgt 2\ :sup:`-52` ≈ 2,22·10\ :sup:`-16`\ . Die letzten beiden
+:math:`2^{-1022}\times 2^{-52} = 2^{-1074} \approx 4,941\cdot 10^{-324}`.
+Die größte darstellbare endliche Zahl ist :math:`2^{1023}\times(1+(1-2^{-52}))
+\approx 1,798\cdot 10^{308}`. Der Abstand zwischen der Zahl Eins und der nächst größeren
+darstellbaren Zahl beträgt :math:`2^{-52} \approx 2,22\cdot 10^{-16}`. Die letzten beiden
 Angaben lassen sich in Python folgendermaßen verifizieren:
 
 >>> import sys
