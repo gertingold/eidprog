@@ -112,7 +112,7 @@ Arrays mit Hilfe des Operators ``@`` ausgeführt werden:
 
 .. code-block:: python
 
-   >>> matrixA @ matrixB
+   >>> matrixA@matrixB
    array([[  4.98, -11.1 ],
           [ -0.06,  -0.54]])
 
