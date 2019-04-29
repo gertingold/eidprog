@@ -151,11 +151,13 @@ offiziellen Python-Webseite `www.python.org <http://www.python.org/>`_
 herunterladen. Dabei ist zu beachten, dass gegenwärtig zwei Versionen von
 Python im Gebrauch sind, die sich in einigen Aspekten voneinander
 unterscheiden: Python 2 und Python 3. Beim Schreiben dieses Manuskripts waren
-die Versionen 2.7.14 und 3.6.5 aktuell. Im Rahmen der Vorlesung wird Python 3
-besprochen, so dass auf die Installation von Python 2.7 verzichtet werden kann.
-Es stellt jedoch kein Problem dar, wenn Python 2 ebenfalls installiert ist, wie
-dies zum Beispiel bei gängigen Linuxsystemen der Fall sein wird. Für den
-Gebrauch im Rahmen dieser Vorlesung wird eine Python-Version ab 3.3 empfohlen.
+die Versionen 2.7.16 und 3.7.3 aktuell. Im Rahmen der Vorlesung wird Python 3
+besprochen. Die Unterstützung von Python 2 wird zum 1.1.2020 auslaufen, so
+dass davon abzuraten ist, noch Programme in Python 2 zu schreiben. Dennoch
+kann es, z.B. bei gängigen Linuxsystemen der Fall sein, dass auch noch Python 2
+installiert ist. Python 3 lässt sich aber problemlos parallel hierzu verwenden.
+Für den Gebrauch im Rahmen dieser Vorlesung wird eine Python-Version ab 3.3
+empfohlen.
 
 Neben dem eigentlichen Python-Interpreter werden wir jedoch noch weitere
 Software benötigen, wie zum Beispiel die numerischen Programmbibliotheken
