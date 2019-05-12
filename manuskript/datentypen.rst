@@ -418,9 +418,9 @@ des Programms fehlerhaft sein kann.
 
 Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 
-==================  =========================================================================
+=================== ===============================================================================
  Name                Funktion                                                               
-==================  =========================================================================
+=================== ===============================================================================
 ``ceil(x)``          kleinste ganze Zahl größer oder gleich ``x``                            
 ``copysign(x, y)``   ergibt ``x`` mit dem Vorzeichen von ``y``                      
 ``fabs(x)``          Absolutwert von ``x``                                                   
@@ -466,7 +466,7 @@ Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 ``erfc(x)``          Komplement der Fehlerfunktion [#fehlerfunktion]_                        
 ``gamma(x)``         Gammafunktion [#gammafunktion]_                                         
 ``lgamma(x)``        natürlicher Logarithmus des Betrags der Gammafunktion [#gammafunktion]_ 
-==================  =========================================================================
+=================== ===============================================================================
 
 Außerdem werden die Kreiszahl π=3.14159… und die eulersche Zahl e=2.71828… definiert:
 
