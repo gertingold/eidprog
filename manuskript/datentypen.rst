@@ -677,13 +677,15 @@ empfohlenen Konventionen für Bezeichner finden Sie im Python Enhancement Propos
 mit dem Titel »Style Guide for Python Code« im Abschnitt *Naming Conventions*.
 
 Die folgenden Schlüsselwörter sind in Python als Sprachelemente reserviert und dürfen
-nicht für Bezeichner verwendet werden [#keywords]_::
+nicht für Bezeichner verwendet werden [#keywords]_:
 
-  False     assert      del        for       in        or        while
-  None      break       elif       from      is        pass      with  
-  True      class       else       global    lambda    raise     yield 
-  and       continue    except     if        nonlocal  return     
-  as        def         finally    import    not       try        
+.. code-block:: none
+
+  False     assert      continue   except    if        nonlocal  return
+  None      async       def        finally   import    not       try  
+  True      await       dele       for       in        or        while 
+  and       break       elif       from      is        pass      with
+  as        class       else       global    lambda    raise     yield
 
 |achtung| Da griechische Buchstaben in der Physik relativ häufig sind, ist 
 insbesondere darauf zu achten, dass ``lambda`` reserviert ist. Den Grund hierfür
@@ -1171,7 +1173,8 @@ erzeugen die Ausgabe ``x..xx`` sowie einen anschließenden Zeilenumbruch.
 .. [#gammafunktion] Für positive ganze Zahlen entspricht die Gammafunktion der Fakultät des
            um Eins verminderten Arguments.
 .. [#keywords] Bei Bedarf kann die Liste der Schlüsselwörter mit Hilfe des ``keyword``-Moduls
-           und Verwendung der Anweisung ``keyword.kwlist`` erhalten werden.
+           und Verwendung der Anweisung ``keyword.kwlist`` erhalten werden. Die hier aufgelisteten
+           Schlüsselwörter beziehen sich auf Python 3.7.
 .. [#gformat] Die genaue Regel für die Umstellung der Darstellungsart kann man in der
            Dokumentation der Python-Standardbibliothek unter `6.1.3.1. Format Specification Mini-Language
            <http://docs.python.org/3/library/string.html#formatspec>`_
