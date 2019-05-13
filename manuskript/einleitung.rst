@@ -156,7 +156,7 @@ besprochen. Die Unterstützung von Python 2 wird zum 1.1.2020 auslaufen, so
 dass davon abzuraten ist, noch Programme in Python 2 zu schreiben. Dennoch
 kann es, z.B. bei gängigen Linuxsystemen der Fall sein, dass auch noch Python 2
 installiert ist. Python 3 lässt sich aber problemlos parallel hierzu verwenden.
-Für den Gebrauch im Rahmen dieser Vorlesung wird eine Python-Version ab 3.3
+Für den Gebrauch im Rahmen dieser Vorlesung wird eine Python-Version ab 3.5
 empfohlen.
 
 Neben dem eigentlichen Python-Interpreter werden wir jedoch noch weitere
@@ -290,14 +290,14 @@ Literatur
 * Hans Petter Langtangen, *A Primer on Scientific Programming with Python* (Springer, 2012)
 * Michael Weigend, *Python GE-PACKT* (MITP-Verlag, 2015) 
 
-   Dieses Buch eignet sich als kompaktes Nachschlagewerk. Die 6. Auflage berücksichtigt
-   die Python-Version 3.4.
+   Dieses Buch eignet sich als kompaktes Nachschlagewerk. Die 7. Auflage berücksichtigt
+   die Python-Version 3.6.
 
 ==============
 Python-Version
 ==============
 
-Dieses Manuskript bezieht sich auf die Python-Version 3.3 oder eine neuere
+Dieses Manuskript bezieht sich auf die Python-Version 3.5 oder eine neuere
 Version. Ein Großteil des behandelten Stoffes ist auch auf Python 2.7
 anwendbar. Wichtige Ausnahmen sind das unterschiedliche Verhalten bei der
 Integer-Division, die Klammerung bei der ``print``-Funktion und die Verwendung
