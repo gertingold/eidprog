@@ -418,9 +418,9 @@ des Programms fehlerhaft sein kann.
 
 Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 
-==================  =========================================================================
+=================== ===============================================================================
  Name                Funktion                                                               
-==================  =========================================================================
+=================== ===============================================================================
 ``ceil(x)``          kleinste ganze Zahl größer oder gleich ``x``                            
 ``copysign(x, y)``   ergibt ``x`` mit dem Vorzeichen von ``y``                      
 ``fabs(x)``          Absolutwert von ``x``                                                   
@@ -431,17 +431,18 @@ Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 ``fsum(z)``          Summe über ``z``, ``z`` ist iterierbarer Datentyp             
 ``gcd(a, b)``        größter gemeinsamer Teiler der ganzen Zahlen ``a`` und ``b`` (ab Python 3.5)
 ``isclose(a, b)``    überprüft ob ``a`` und ``b`` nahezu gleich sind (ab Python 3.5) [#isclosedoc]_
-``isfinite(x)``      überprüft ob ``x`` weder unendlich noch ``nan`` (not a number) ist (ab Python 3.2)
+``isfinite(x)``      überprüft ob ``x`` weder unendlich noch ``nan`` (not a number) ist
 ``isinf(x)``         überprüft ob ``x`` unendlich ist                              
 ``isnan(x)``         überprüft ob ``x`` ``nan`` (not a number) ist                 
 ``ldexp(x, i)``      inverse Funktion zu ``frexp``, gibt ``x*(2**i)`` zurück                 
 ``modf(x)``          gibt Vor- und Nachkommaanteil als Gleitkommazahl zurück                
+``remainder(x, y)``  Rest bei Division von x durch y nach IEEE 754 (ab Python 3.7)
 ``trunc(x)``         schneidet Nachkommaanteil ab                                  
 ``exp(x)``           Exponentialfunktion                                                    
-``expm1(x)``         Exponentialfunktion minus 1 (ab Python 3.2)
+``expm1(x)``         Exponentialfunktion minus 1
 ``log(x[, base])``   Logarithmus, ohne Angabe der Basis: natürlicher Logarithmus            
 ``log1p(x)``         natürlicher Logarithmus von ``x+1``                           
-``log2(x)``          binärer Logarithmus (ab Python 3.3)
+``log2(x)``          binärer Logarithmus
 ``log10(x)``         dekadischer Logarithmus                                                
 ``pow(x, y)``        :math:`x^y`                                                                
 ``sqrt(x)``          Quadratwurzel                                                          
@@ -465,7 +466,7 @@ Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 ``erfc(x)``          Komplement der Fehlerfunktion [#fehlerfunktion]_                        
 ``gamma(x)``         Gammafunktion [#gammafunktion]_                                         
 ``lgamma(x)``        natürlicher Logarithmus des Betrags der Gammafunktion [#gammafunktion]_ 
-==================  =========================================================================
+=================== ===============================================================================
 
 Außerdem werden die Kreiszahl π=3.14159… und die eulersche Zahl e=2.71828… definiert:
 
@@ -485,8 +486,9 @@ anderen Namen vergeben:
 >>> euler_zahl
 2.718281828459045
 
-Ab Python 3 sind schließlich noch ``math.inf`` für positiv Unendlich und
-``math.nan`` für »not a number« definiert.
+Ab Python 3.6 ist das Doppelte der Kreiszahl als ``math.tau`` verfügbar.
+Außerdem sind noch ``math.inf`` für positiv Unendlich und ``math.nan`` für
+»not a number« definiert.
 
 ===============
 Komplexe Zahlen
