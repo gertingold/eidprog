@@ -429,14 +429,14 @@ Die nachfolgende Tabelle gibt die Funktionen des Moduls :mod:`math` an.
 ``fmod(x, y)``       Modulofunktion für Gleitkommazahlen                                    
 ``frexp(x)``         ergibt Mantisse ``m`` und Exponent ``e`` für Basis 2                         
 ``fsum(z)``          Summe über ``z``, ``z`` ist iterierbarer Datentyp             
-``gcd(a, b)``        größter gemeinsamer Teiler der ganzen Zahlen ``a`` und ``b`` (ab Python 3.5)
-``isclose(a, b)``    überprüft ob ``a`` und ``b`` nahezu gleich sind (ab Python 3.5) [#isclosedoc]_
+``gcd(a, b)``        größter gemeinsamer Teiler der ganzen Zahlen ``a`` und ``b``
+``isclose(a, b)``    überprüft ob ``a`` und ``b`` nahezu gleich sind [#isclosedoc]_
 ``isfinite(x)``      überprüft ob ``x`` weder unendlich noch ``nan`` (not a number) ist
 ``isinf(x)``         überprüft ob ``x`` unendlich ist                              
 ``isnan(x)``         überprüft ob ``x`` ``nan`` (not a number) ist                 
 ``ldexp(x, i)``      inverse Funktion zu ``frexp``, gibt ``x*(2**i)`` zurück                 
 ``modf(x)``          gibt Vor- und Nachkommaanteil als Gleitkommazahl zurück                
-``remainder(x, y)``  Rest bei Division von x durch y nach IEEE 754 (ab Python 3.7)
+``remainder(x, y)``  Rest bei Division von ``x`` durch ``y`` nach IEEE 754 (ab Python 3.7)
 ``trunc(x)``         schneidet Nachkommaanteil ab                                  
 ``exp(x)``           Exponentialfunktion                                                    
 ``expm1(x)``         Exponentialfunktion minus 1
