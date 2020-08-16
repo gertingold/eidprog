@@ -1,0 +1,9 @@
+# Book settings
+title        : Einführung in Prinzipien der Programmierung
+author       : Gert-Ludwig Ingold
+copyright    : "2020"
+logo         : ""
+
+latex:
+  latex_documents:
+    targetname: book.tex
