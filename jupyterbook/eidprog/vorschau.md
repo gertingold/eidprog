@@ -159,9 +159,11 @@ angegeben, der wievielte Durchlauf gerade stattfindet. Anschließend wird in Zei
 die Variable ``summe`` inkrementiert. In Zeile 5 wurde die Schleife bereits wieder
 verlassen und es wird das Ergebnis der fünffachen Inkrementierung ausgegeben.
 
-|frage| Rücken Sie im Skript ``summe.py`` Zeile 5 ebenfalls ein. Überlegen Sie
+```{admonition} Frage
+Rücken Sie im Skript ``summe.py`` Zeile 5 ebenfalls ein. Überlegen Sie
 sich zunächst, welche Ausgabe Sie erwarten, und überprüfen Sie Ihre Überlegung,
 indem Sie das Skript anschließend ausführen.
+```
 
 Sehen wir uns noch an, wie die Eingabe der Schleife in der Python-Shell ablaufen
 würde:
@@ -256,6 +258,3 @@ die Bedingung in Zeile 2 dagegen nicht erfüllt, so wird der Block nach der
 Doppelpunkte nach der ``if``-Bedingung und nach ``else`` sowie die Einrückung
 der zugehörigen Codeblöcke. Die nicht mehr eingerückte Anweisung in Zeile 6 wird
 unabhängig davon ausgeführt, ob die Bedingung in Zeile 2 erfüllt ist oder nicht.
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em

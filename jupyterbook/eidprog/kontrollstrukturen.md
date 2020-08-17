@@ -357,9 +357,11 @@ dass der Wert der Variable ``y`` nicht negativ ist, ausgegeben. In Zeile 15
 wird die Zeit um den vorgegebenen Zeitschritt erhöht und in den Zeilen 16 und
 17 der zugehörige Bahnpunkt bestimmt.
 
-|frage| Wie würde sich die Ausgabe verändern, wenn man die Zeilen 14 und 15 hinter
+```{admonition} Frage
+Wie würde sich die Ausgabe verändern, wenn man die Zeilen 14 und 15 hinter
 die Zeile 17 verschiebt, also zunächst den Bahnpunkt berechnet und ausgibt und
 anschließend die Zeit inkrementiert?
+```
 
 In den Zeilen 1-7 fällt noch auf, dass nach den Anweisungen ein „Gartenzaun“
 (#) und eine Erläuterung folgt. In Python wird das Zeichen # als
@@ -624,6 +626,3 @@ Das ``try…except…``-Konstrukt erlaubt auch noch einen
 wird. Dies ist zum Beispiel wichtig, wenn Dateizugriffe erfolgen und die Datei
 am Ende auf jeden Fall geschlossen werden muss.
 ```
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em

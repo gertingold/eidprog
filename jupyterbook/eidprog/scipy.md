@@ -472,8 +472,10 @@ zugeordnet werden.  Es ist zu beachten, dass ein einzelner eingeklammerter
 Variablenname nur dann als Tupel interpretiert wird, wenn dieser von einem
 Komma gefolgt wird.
 
-|frage| Warum wird hier im Gegensatz zum ersten Beispiel nicht der relative sondern
+```{admonition} Frage
+Warum wird hier im Gegensatz zum ersten Beispiel nicht der relative sondern
 der absolute Fehler ausgegeben?
+```
 
 Auch wenn der hier vorgestellte Programmcode nur die Position des Oszillators
 als Funktion der Zeit ausgibt, könnte man genauso seine Geschwindigkeit
@@ -481,10 +483,9 @@ ausgeben. Nachdem wir zwei Differentialgleichungen erster Ordnung gelöst haben,
 ist die Geschwindigkeit bei der von uns gewählten Reihenfolge als zweite Spalte 
 ``ergebnis[:, 1]`` in der Ergebnismatrix zugänglich.
 
-|frage| Wie ändert sich die Trajektorie, wenn in der Bewegungsgleichung
+```{admonition} Frage
+Wie ändert sich die Trajektorie, wenn in der Bewegungsgleichung
 {math}`\dot x` durch {math}`\dot x^2` ersetzt wird, so dass die Bewegungsgleichung
 nichtlinear wird? Mit den in Kapitel {ref}`grafik` dargestellten Techniken können
 Sie die berechneten Trajektorien leicht vergleichen.
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em
+```

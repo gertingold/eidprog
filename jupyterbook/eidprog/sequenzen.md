@@ -85,7 +85,9 @@ wie es die folgende Abbildung zeigt:
 :align: center
 ```
 
-|frage| Was ergibt ``a[2:2]``?
+```{admonition} Frage
+Was ergibt ``a[2:2]``?
+```
 
 Wird einer der beiden Indizes nicht angegeben, so wird er durch den Index ersetzt, der auf
 den Beginn bzw. das Ende der Liste zeigt.
@@ -1000,6 +1002,3 @@ führe Funktion 1 aus
 führe Defaultfunktion aus
 führe Defaultfunktion aus
 ```
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em

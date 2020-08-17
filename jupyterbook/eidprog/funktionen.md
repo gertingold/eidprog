@@ -144,8 +144,10 @@ for n in range(2, 20):
         print(n)
 ```
 
-|frage| Der hier vorgestellte Primzahltest ist nicht sonderlich effizient. Wie könnte
+```{admonition} Frage
+Der hier vorgestellte Primzahltest ist nicht sonderlich effizient. Wie könnte
 man ihn verbessern?
+```
 
 Funktionen können auch mehr als ein Argument besitzen und mehr als einen Wert zurückgeben
 wie folgendes Beispiel zeigt:
@@ -619,6 +621,3 @@ die Funktionsdefinition festgelegte Zahl von Variablen übergeben, wobei auch
 Schlüsselworte vorkommen können, die nicht in der Variablenliste der Funktionsdefinition
 zu finden sind. Auf diese Art der Argumentübergabe werden wir im Kapitel {ref}`dictionaries`
 zurückkommen, da wir erst dort den hierzu benötigten Datentyp kennenlernen werden.
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em

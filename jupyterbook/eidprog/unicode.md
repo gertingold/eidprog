@@ -75,8 +75,10 @@ zwei Bytes verteilt:
 Dabei wird der Codepoint ``0xE9`` des Zeichens »é« auf den UTF-8-Code 
 ``0xC3A9`` abgebildet. 
 
-|frage| Was würde ein Programm, das von einer Latin-1-Kodierung ausgeht,
+```{admonition} Frage
+Was würde ein Programm, das von einer Latin-1-Kodierung ausgeht,
 in diesem Fall anzeigen?
+```
 
 Beispiele von 2-Byte-Codes sind in der zweiten und dritten der im Folgenden
 abgebildeten Codetabellen zu sehen. Dabei handelt es sich zum einen um die
@@ -115,6 +117,3 @@ mit ``0xF`` beginnt.
 :width: 14.5cm
 :align: center
 ```
-
-.. |frage| image:: images/symbols/question.*
-           :height: 0.4cm

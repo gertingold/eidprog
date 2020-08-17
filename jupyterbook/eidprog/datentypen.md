@@ -81,10 +81,12 @@ Mit den 63 Bit, die für positive Zahlen zur Verfügung stehen, lassen sich die
 ganzen Zahlen von {math}`0` bis {math}`2^{63}-1` darstellen, womit sich obiges
 Ergebnis für ``sys.maxsize`` erklärt.
 
-|frage| Wie lässt sich das Zustandekommen des Bitmusters im Falle negativer
+```{admonition} Frage
+Wie lässt sich das Zustandekommen des Bitmusters im Falle negativer
 Zahlen verstehen?  Warum ist diese Wahl sinnvoll? (Hinweis: Betrachten Sie die 
 Addition einer positiven und einer negativen Zahl.) Warum ergibt sich ein
 asymmetrischer Wertebereich für Integers?
+```
 
 In Python kann man auch mit Binär-, Oktal- und Hexadezimalzahlen arbeiten, die durch
 die Präfixe ``0b`` oder ``0B``, ``0o`` oder ``0O`` bzw. ``0x`` oder ``0X``
@@ -143,12 +145,14 @@ sich mit einem doppelten Schrägstrich erhalten.
 -3
 ```
 
-|frage| Was macht der ``//``-Divisionsoperator tatsächlich, vor allem vor dem
+```{admonition} Frage
+Was macht der ``//``-Divisionsoperator tatsächlich, vor allem vor dem
 Hintergrund des letzten Beispiels? [^gvr_blog]
 
 [^gvr_blog]: Die Hintergründe kann man in einem
     [Blog-Artikel](http://python-history.blogspot.de/2010/08/why-pythons-integer-division-floors.html)
     von Guido van Rossum nachlesen.
+```
 
 In anderen Sprachen und auch in Python 2, in denen der einfache Schrägstrich
 eine Integerdivision bedeutet, kann man eine Gleitkommadivision erzwingen,
@@ -194,7 +198,9 @@ gewünschte Reihenfolge sicherzustellen. Es spricht auch nichts dagegen, im
 Zweifelsfall oder zur besseren Lesbarkeit Klammern zu setzen, selbst wenn diese
 nicht zur korrekten Abarbeitung des Ausdrucks erforderlich sind.
 
-|frage| Was ergibt ``-2*4+3**2``? Was ergibt ``6**4/2``?
+```{admonition} Frage
+Was ergibt ``-2*4+3**2``? Was ergibt ``6**4/2``?
+```
 
 (float)=
 ## Gleitkommazahlen
@@ -291,8 +297,10 @@ deutlich.
     das Rechnen in der Dezimaldarstellung erlaubt. Ferner gibt es das Modul {mod}`mpmath`,
     das eine Rechnung mit einer vorgebbaren, im Prinzip beliebig hohen Genauigkeit ermöglicht.
 
-|frage| Zeigen Sie, dass die Dezimalzahl 0.1 die Binärdarstellung
+```{admonition} Frage
+Zeigen Sie, dass die Dezimalzahl 0.1 die Binärdarstellung
 {math}`0.0\overline{0011}` besitzt.
+```
 
 Informationen über die Eigenschaften von Floats auf dem verwendeten System kann
 man folgendermaßen erhalten:
@@ -312,7 +320,8 @@ kann, besteht um die Null herum eine Lücke. ``sys.float_info.epsilon`` ist die
 Differenz zwischen der kleinsten Zahl größer als Eins, die mit dem 
 gegebenen Float-Typ darstellbar ist, und Eins selbst.
 
-|frage| Können Sie die Werte für ``max``, ``min`` und ``epsilon`` erklären?
+```{admonition} Frage
+Können Sie die Werte für ``max``, ``min`` und ``epsilon`` erklären?
 Hinweis: Es handelt sich hier um ein Double im Sinne des IEEE754-Standards [^ieee754]
 mit einem 11-Bit-Exponenten, einem Vorzeichenbit und einer Mantisse von 52 Bit.
 Welches ist die kleinste streng positive Zahl, die Sie mit einem Float darstellen
@@ -320,6 +329,7 @@ können?
 
 [^ieee754] Detailliertere Informationen zu diesem Standard sind im Anhang
     {ref}`appendixfloats` zu finden.
+```
 
 Im Gegensatz zu Integers können Gleitkommazahlen also nicht beliebig groß
 werden, sondern sind auf einen allerdings recht großzügig bemessenen Bereich
@@ -603,9 +613,11 @@ werden:
 (1+2j)
 ```
 
-|frage| Zeigen Sie, dass das Ergebnis einer Rechnung, die komplexe Zahlen
+```{admonition} Frage
+Zeigen Sie, dass das Ergebnis einer Rechnung, die komplexe Zahlen
 enthält, selbst dann als komplexe Zahl dargestellt wird, wenn das Ergebnis
 reell ist.
+```
 
 Hat man eine komplexe Zahl einer Variablen zugewiesen (dies wird im Kapitel {ref}`variablen`
 genauer diskutiert), so lassen sich Real- und Imaginärteil wie folgt bestimmen:
@@ -668,8 +680,10 @@ Eine andere Möglichkeit wäre
 (0.7071067811865476+0.7071067811865475j)
 ```
 
-|frage| Welche Funktion wird verwendet, wenn man nacheinander die Funktion
+```{admonition} Frage
+Welche Funktion wird verwendet, wenn man nacheinander die Funktion
 :func:`exp` aus dem Modul {mod}`math` und aus dem Modul {mod}`cmath` importiert?
+```
 
 (variablen)=
 
@@ -1194,8 +1208,10 @@ Betrachten wir nun noch die Formatierung von Integers.
 |42|   42|00042|
 ```
 
-|frage| Warum kann man die ``0`` zur Kennzeichnung der einzusetzenden Variable
+```{admonition} Frage
+Warum kann man die ``0`` zur Kennzeichnung der einzusetzenden Variable
 nicht weglassen?
+```
 
 Integers in Dezimaldarstellung benötigen keinen Buchstaben zur
 Formatspezifikation. [^dezimal]  Man kann hier aber ähnlich wie bei den Gleitkommazahlen
@@ -1212,9 +1228,11 @@ unterstützt insbesondere die Ausgabe im Binärformat (``b``), Oktalformat
 |42|  101010|      52|      2a|00101010|
 ```
 
-|frage| Was ändert sich, wenn man ``b``, ``o`` und ``x`` durch die entsprechenden
+```{admonition} Frage
+Was ändert sich, wenn man ``b``, ``o`` und ``x`` durch die entsprechenden
 Großbuchstaben ersetzt? Welche Auswirkungen hat ein ``#``, das vor der Feldbreite
 inklusive einer eventuell vorhandenen Null steht?
+```
 
 Die hier besprochenen Formatierungsanweisungen decken bereits viele
 Anwendungsfälle ab. Dennoch sind die von Python 3 zur Verfügung gestellten
@@ -1235,7 +1253,3 @@ print("x")
 ```
 
 erzeugen die Ausgabe ``x..xx`` sowie einen anschließenden Zeilenumbruch.
-
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em
