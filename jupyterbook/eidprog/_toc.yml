@@ -1,13 +1,19 @@
 - file: einleitung.md
-- file: vorschau.md
-- file: datentypen.md
-- file: kontrollstrukturen.md
-- file: funktionen.md
-- file: sequenzen.md
-- file: einausgabe.md
-- file: scipy.md
-- file: objektorientiert.md
-- file: grafik.md
-- file: floats.md
-- file: unicode.md
+
+- part: 
+  chapters:
+  - file: vorschau.md
+  - file: datentypen.md
+  - file: kontrollstrukturen.md
+  - file: funktionen.md
+  - file: sequenzen.md
+  - file: einausgabe.md
+  - file: scipy.md
+  - file: objektorientiert.md
+  - file: grafik.md
+
+- part: Anhang
+  chapters:
+  - file: floats.md
+  - file: unicode.md
 
