@@ -6,6 +6,8 @@
 - file: sequenzen.md
 - file: einausgabe.md
 - file: scipy.md
-- file: objektorientiert
-- file: grafik
+- file: objektorientiert.md
+- file: grafik.md
+- file: floats.md
+- file: unicode.md
 
