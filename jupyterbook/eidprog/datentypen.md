@@ -1157,9 +1157,11 @@ Ausgabe von kleinen Zahlen keine signifikanten Stellen verlieren. Entsprechendes
 wäre bei großen Zahlen der Fall. Macht man wie in Eingabe 3 die Feldlänge größer, so
 wird entsprechend viel Leerplatz auf der linken Seite ausgegeben.
 
-|weiterfuehrend| Um etwas über die Möglichkeiten der Positionierung der Ausgabe
+```{admonition} Weiterführender Hinweis
+Um etwas über die Möglichkeiten der Positionierung der Ausgabe
 zu erfahren, können Sie im letzten Beispiel folgende Formatierungsspezifikationen
 ausprobieren: ``{:<20.8e}``, ``{:=+20.8e}`` und ``{:^20.8e}``.
+```
 
 Häufig möchte man die Exponentialschreibweise nur verwenden, wenn die
 auszugebende Zahl hinreichend groß oder klein ist. Ein solches Verhalten
@@ -1237,6 +1239,3 @@ erzeugen die Ausgabe ``x..xx`` sowie einen anschließenden Zeilenumbruch.
 
 .. |frage| image:: images/symbols/question.*
            :height: 1em
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em
-

@@ -102,7 +102,8 @@ array([[  2.73 -11.25],
        [ -1.53  -8.19]])
 ```
 
-|weiterfuehrend| Ab Python 3.5 und NumPy 1.10 kann die Matrixmultiplikation von
+````{tip}
+Ab Python 3.5 und NumPy 1.10 kann die Matrixmultiplikation von
 Arrays mit Hilfe des Operators ``@`` ausgeführt werden:
 
 ```{code-block} python
@@ -110,6 +111,7 @@ Arrays mit Hilfe des Operators ``@`` ausgeführt werden:
 array([[  4.98, -11.1 ],
        [ -0.06,  -0.54]])
 ```
+````
 
 Das folgende Beispiel zeigt die Berechnung von Skalarprodukt, dyadischem
 Produkt sowie Kreuzprodukt für zwei Vektoren.
@@ -486,6 +488,3 @@ Sie die berechneten Trajektorien leicht vergleichen.
 
 .. |frage| image:: images/symbols/question.*
            :height: 1em
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em
-

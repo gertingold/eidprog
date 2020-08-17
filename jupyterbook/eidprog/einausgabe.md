@@ -484,8 +484,10 @@ eine neue Datei angelegt wird.  Gelegentlich möchte man Daten an eine Datei
 anhängen. In diesem Falle verwendet man den Modus ``a`` für »append« oder
 ``a+`` falls man aus der Datei auch lesen möchte. 
 
-|weiterfuehrend| Ab Python 3.3 gibt es auch noch die Option ``"x"``, die nur
+```{admonition} Weiterführender Hinweis
+Ab Python 3.3 gibt es auch noch die Option ``"x"``, die nur
 dann eine Datei erfolgreich öffnet, falls diese Datei noch nicht existiert.
+```
 
 Bei numerischen Rechnungen ist es oft sinnvoll, die verwendeten Parameter im
 Dateinamen aufzuführen wie es im folgenden Beispiel gezeigt ist. Dazu wird in
@@ -550,6 +552,3 @@ beschrieben, wobei eine Unterteilung in Abschnitte möglich ist.
 [^cpdoc]: Dieses Modul ist unter dem Titel
     [ConfigParser — Configuration file parser](http://docs.python.org/library/configparser.html)
     in der Python-Dokumentation beschrieben.
-
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em

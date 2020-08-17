@@ -618,15 +618,12 @@ Variable ``x``, der seinen Ursprung wohl in einem Programmierfehler hat, nicht
 mehr in Erscheinung, so dass der Programmierfehler möglicherweise unentdeckt 
 bliebe.
 
-|weiterfuehrend| Das ``try…except…``-Konstrukt erlaubt auch noch einen
+```{admonition} Weiterführender Hinweis
+Das ``try…except…``-Konstrukt erlaubt auch noch einen
 ``finally…``-Block, der unabhängig vom Auftreten einer Ausnahme ausgeführt
 wird. Dies ist zum Beispiel wichtig, wenn Dateizugriffe erfolgen und die Datei
 am Ende auf jeden Fall geschlossen werden muss.
+```
 
 .. |frage| image:: images/symbols/question.*
            :height: 1em
-.. |achtung| image:: images/symbols/attention.*
-           :height: 1em
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em
-

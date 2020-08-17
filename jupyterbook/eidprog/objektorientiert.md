@@ -295,7 +295,7 @@ bespielsweise im Kapitel über {ref}`einausgabe` die Anweisung ``datei.write(…
 verwendet haben, so hatten wir ein Dateiobjekt ``datei`` benutzt und dessen
 ``write``-Methode aufgerufen.
 
-|weiterfuehrend| Zum Abschluss dieses Unterkapitels soll noch auf zwei Aspekte
+Zum Abschluss dieses Unterkapitels soll noch auf zwei Aspekte
 im Zusammenhang mit dem hier entwickelten Beispiel eingegangen werden. Vor allem
 wenn man eine Klasse programmiert, um sie anderen Nutzern zur Verfügung zu stellen,
 ist die Dokumentation der Methoden wichtig, mit deren Hilfe der Nutzer mit den
@@ -364,7 +364,7 @@ Methoden zur Verfügung zu stellen, selbst wenn keine expliziten Dokumentationst
 vorhanden sind. Dies ist jedoch keinesfalls eine Entschuldigung dafür, auf eine
 Dokumentation von Seiten des Programmierers zu verzichten!
 
-|weiterfuehrend| Ein Manko unserer bisherigen Version der ``Bruch``-Klasse besteht
+Ein Manko unserer bisherigen Version der ``Bruch``-Klasse besteht
 darin, dass stillschweigend vorausgesetzt wird, dass Zähler und Nenner als Integers
 übergeben werden müssen. Dies ist unnötig restriktiv. Es würde ausreichen, wenn
 die entsprechenden Werte in Integers umwandelbar sind. Die ``__init__()``-Methode
@@ -519,8 +519,10 @@ es möglich, auch mehrere Basisklassen anzugeben. In der Konstruktormethode der
 angibt. Um die Position des Körpers zu initialisieren, greifen wir auf die Konstruktormethode der
 ``Massepunkt``-Klasse zurück. Dies ist sinnvoll, aber keineswegs verpflichtend.
 
-|weiterfuehrend| Um auf die Konstruktormethode der Elternklasse zuzugreifen, könnte man in
+```{tip}
+Um auf die Konstruktormethode der Elternklasse zuzugreifen, könnte man in
 Zeile 20 alternativ ``super().__init__()`` verwenden.
+```
 
 In der ``Rotationskoerper``-Klasse definieren wir zwei neue Methoden. Es wäre
 durchaus auch möglich, Methoden der ``Massepunkt``-Klasse zu überladen. Wir
@@ -550,6 +552,3 @@ Die Achse des starren Körpers liegt in Richtung des Vektors (0.707107, -5.55112
 Das ``Rotationskoerper``-Objekt ``rk`` besitzt tatsächlich sowohl die Objektattribute der 
 ``Massepunkt``-Klasse als auch die der ``Rotationskoerper``-Klasse. Zudem können die Methoden
 beider Klassen verwendet werden.
-
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em

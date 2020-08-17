@@ -166,15 +166,18 @@ Wichtig ist, dass die Zuordnung durch die Position der jeweiligen Variablen erfo
 durch deren Namen. Es gibt allerdings auch die Möglichkeit einer namensbasierten Übergabe
 der Argumente, die wir im Abschnitt {ref}`funckeywords` kennenlernen werden.
 
-|weiterfuehrend| Eine Funktionsdefinition kommt nicht ohne einen Codeblock aus, der auf
+```{tip}
+Eine Funktionsdefinition kommt nicht ohne einen Codeblock aus, der auf
 die mit ``def`` beginnende Deklarationszeile folgt. Gelegentlich möchte man beim Entwickeln
 eines Programms bereits die zu erstellenden Funktionen notieren, ohne die entsprechende
 Funktionalität gleich zu implementieren. Um dennoch schon zu diesem Zeitpunkt ein syntaktisch
 korrektes Programm zu haben, kann man den Befehl ``pass`` verwenden, der lediglich dazu
 dient, den benötigten Codeblock bereitzustellen. ``pass`` hat ansonsten keinerlei Auswirkungen
 auf den Programmablauf.
+```
 
-|weiterfuehrend| Auch wenn eine Funktion keine ``return``-Anweisung
+````{tip}
+Auch wenn eine Funktion keine ``return``-Anweisung
 enthält, wird ein Wert zurückgegeben, nämlich ``None`` wie folgendes
 einfache Beispiel zeigt.
 
@@ -189,6 +192,7 @@ None
 Gelegentlich kann es vorkommen, dass man sich über diese unerwartete
 Rückgabe wundert. Grund hierfür ist dann häufig eine vergessene 
 ``return``-Anweisung.
+````
 
 (funcdoc)=
 ## Dokumentation von Funktionen
@@ -616,7 +620,5 @@ Schlüsselworte vorkommen können, die nicht in der Variablenliste der Funktions
 zu finden sind. Auf diese Art der Argumentübergabe werden wir im Kapitel {ref}`dictionaries`
 zurückkommen, da wir erst dort den hierzu benötigten Datentyp kennenlernen werden.
 
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-   :height: 1em
 .. |frage| image:: images/symbols/question.*
            :height: 1em

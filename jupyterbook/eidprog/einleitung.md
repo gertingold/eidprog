@@ -284,14 +284,6 @@ kann sich über mehrere Zeilen hinziehen. Zum Beenden wird die
 
 ``$`` steht für den Prompt in der Kommandozeile eines Terminalfensters.
 
-|achtung| Dieses Symbol weist auf eine wichtige Anmerkung hin.
-
-|frage| Hier folgt eine Frage, die zum Testen des Verständnisses oder als Vertiefung
-bearbeitet werden kann.
-
-|weiterfuehrend| Dieses Symbol kennzeichnet weiterführende Anmerkungen, die sich unter
-anderem auf speziellere Aspekte der Programmiersprache Python beziehen.
-
 ## Literatur
 
 - Gert-Ludwig Ingold, Vorlesungsmanuskript »Einführung in das Programmieren für Physiker
@@ -325,10 +317,3 @@ von Unicode in Zeichenketten.
   fanden;
 - Michael Hartmann für Kommentare und Verbesserungsvorschläge zu diesem Manuskript;
 - Michael Drexel für Hinweise auf Tippfehler.
-
-.. |frage| image:: images/symbols/question.*
-           :height: 1em
-.. |achtung| image:: images/symbols/attention.*
-           :height: 1em
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
-           :height: 1em

@@ -284,7 +284,8 @@ linenos: true
 [0, 1, 4, 9, 16]
 ```
 
-|weiterfuehrend| ``for``-Schleifen werden in Python relativ langsam abgearbeitet. 
+````{admonition} Weiterführender Hinweis
+``for``-Schleifen werden in Python relativ langsam abgearbeitet. 
 Die Funktionalität des angegebenen Codes lässt sich wesentlich effizienter als 
 so genannte »list comprehension« realisieren [^list_comprehension], die für unser 
 Beispiel die folgende Form hat:
@@ -298,7 +299,7 @@ Beispiel die folgende Form hat:
 [^list_comprehension]: Eine ausführlichere Beschreibung von »list comprehensions«
     findet sich in der Python-Dokumentation im
     [Kapitel über Datenstrukturen](http://docs.python.org/tutorial/datastructures.html).
-
+````
 
 Mit Hilfe der {func}`append`-Methode lassen sich also Elemente zu einer Liste
 hinzufügen. Sollen zunächst alle Listenelemente gleich sein, so kann man auch
@@ -637,7 +638,8 @@ wie folgt definiert:
 'abcabcabcabcabc'
 ```
 
-|weiterfuehrend| Die Verwendung des Additionsoperators ist wegen der
+```{tip}
+Die Verwendung des Additionsoperators ist wegen der
 Notwendigkeit, ein neues Objekt zu erzeugen, nicht sehr effizient. Will man
 viele Teilstrings aneinanderfügen, so verwendet man besser die
 {func}`join`-Methode, bei der sich noch eine Zeichenkette angeben lässt, die
@@ -645,6 +647,7 @@ zwischen den Elementen der Liste von Strings im Argument der
 {func}`join`-Methode eingesetzt wird. So ergibt ``"--".join(["1", "2", "3"])``
 das Resultat ``"1--2--3"``. Will man auf die Einfügung verzichten, so würde
 das Beispiel stattdessen ``"".join(["1", "2", "3"])`` lauten.
+```
 
 Bei Strings lassen sich wie in Abschnitt {ref}`listen` beschrieben Teilstrings generieren,
 und es lässt sich über die darin enthaltenen Zeichen iterieren wie im Folgenden kurz
@@ -747,10 +750,12 @@ nicht vorhandenen Schlüssel abgefragt, kommt es zu einem ``KeyError``. Wie der
 Vergleich der Zeilen 1 und 6 zeigt, kann sich die Reihenfolge der Elemente in
 einem Dictionary ändern.
 
-|weiterfuehrend| Sollte man tatsächlich ein Dictionary mit fester Ordnung
+```{tip}
+Sollte man tatsächlich ein Dictionary mit fester Ordnung
 benötigen, so steht in Python 3 auch der Objekttyp ``OrderedDict`` zur
 Verfügung, der sich die Reihenfolge merkt, in der dem Dictionary Schlüssel
 zugeordnet wurden.
+```
 
 Wie oben schon angedeutet, können als Schlüssel auch Integer verwendet werden.
 Worin bestehen die Vorteile gegenüber einer Liste, die ja auch mit Integern
@@ -823,12 +828,14 @@ vorziehen.
 Das Geburtsjahr von Newton ist nicht gespeichert.
 ```
 
-|weiterfuehrend| Ein zusammengesetzter Datentyp, der hier nur kurz wegen seiner Verwandtschaft
+```{admonition} Weiterführender Hinweis
+Ein zusammengesetzter Datentyp, der hier nur kurz wegen seiner Verwandtschaft
 mit Dictionaries erwähnt werden soll, ist das Set, das man sich wie ein Dictionary vorstellen
 kann, das nur Schlüssel, aber keine zugehörigen Werte enthält. Auf diese Weise lassen sich 
 Mengen definieren, die kein Element mehrfach enthalten, und die Mengenoperationen wie Vereingungs-
 und Schnittmenge zulassen. Sets haben beispielsweise dann einen großen Vorteil gegenüber Listen,
 wenn man überprüfen möchte, ob ein Element in einer gegebenen Menge vorhanden ist.
+```
 
 Im Abschnitt {ref}`formatierung` hatten wir gesehen, dass man beim Zusammenbauen eines Strings
 einzelne Objekte mit Hilfe ihres Namens übergeben kann. Manchmal ist es praktisch, hierzu ein
@@ -995,6 +1002,4 @@ führe Defaultfunktion aus
 ```
 
 .. |frage| image:: images/symbols/question.*
-           :height: 1em
-.. |weiterfuehrend| image:: images/symbols/weiterfuehrend.*
            :height: 1em
