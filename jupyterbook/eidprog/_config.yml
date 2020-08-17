@@ -1,9 +1,13 @@
 # Book settings
-title        : Einführung in Prinzipien der Programmierung
-author       : Gert-Ludwig Ingold
-copyright    : "2020"
-logo         : ""
+title         : Einführung in Prinzipien der Programmierung
+author        : Gert-Ludwig Ingold
+copyright     : "2020"
+logo          : ""
 
 latex:
   latex_documents:
     targetname: book.tex
+  latex_elements:
+    papersize : a4paper
+
+sphinx: {config      : {language: de}}
