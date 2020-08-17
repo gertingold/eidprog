@@ -428,8 +428,12 @@ $$\ddot x+\gamma\dot x+x=0,$$
 wobei γ die Dämpfungskonstante ist. Diese Differentialgleichung ist zu dem Satz
 zweier Differentialgleichungen erster Ordnung
 
-$$\dot p=-x-\gamma p$$
-$$\dot x=p$$
+$$
+\begin{align}
+\dot p & =-x-\gamma p\\
+\dot x &= p
+\end{align}
+$$
 
 äquivalent, den wir nun mit den Anfangsbedingungen {math}`x(0)=0,\,p(0)=1`
 numerisch lösen wollen.
