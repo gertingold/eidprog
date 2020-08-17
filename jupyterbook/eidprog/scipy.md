@@ -396,7 +396,7 @@ ausgewertet und die Lösung samt den Werten der unabhängigen Variablen und des
 relativen Fehlers ausgegeben. Führt man das Programm aus, so erhält man etwa
 die folgende Ausgabe
 
-```{code-block} python
+```{code-block}
   0  1.00000000            0
   1  0.50000000   1.1693e-09
   2  0.33333332  -5.1641e-08
