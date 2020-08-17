@@ -207,7 +207,7 @@ Was ergibt ``-2*4+3**2``? Was ergibt ``6**4/2``?
 
 Wichtiger als Integers sind in der numerischen Physik die Floats, also
 Gleitkommazahlen. Man kann sie unter anderem durch Umwandlung mit Hilfe
-der Funktion {func}`float` erhalten. [^pprint]_
+der Funktion {func}`float` erhalten. [^pprint]
 
 ```{code-block} python
 >>> type(2)
@@ -327,7 +327,7 @@ mit einem 11-Bit-Exponenten, einem Vorzeichenbit und einer Mantisse von 52 Bit.
 Welches ist die kleinste streng positive Zahl, die Sie mit einem Float darstellen
 können?
 
-[^ieee754] Detailliertere Informationen zu diesem Standard sind im Anhang
+[^ieee754]: Detailliertere Informationen zu diesem Standard sind im Anhang
     {ref}`appendixfloats` zu finden.
 ```
 
