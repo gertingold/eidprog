@@ -91,6 +91,9 @@ latex_elements = {
                     pdfauthor={Gert-Ludwig Ingold <gert.ingold@physik.uni-augsburg.de>},
                     pdfsubject={Manuskript zur Vorlesung »%s«},
                     pdfkeywords={Programmieren, Python, Vorlesungsmanuskript, PHM-0041, PHM-0042}}
+        \DeclareUnicodeCharacter{03A8}{\ensuremath{\Psi}}
+        \DeclareUnicodeCharacter{03B3}{\ensuremath{\gamma}}
+        \DeclareUnicodeCharacter{03C0}{\ensuremath{\pi}}
         ''' % (latex_documents[0][2], latex_documents[0][2]),
 
         'printindex': '',
